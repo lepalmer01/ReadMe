@@ -1,12 +1,12 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-    if (license !== "None") {
-        return `<img src="https://img.shields.io/badge/license-${license}-orange.svg"/>`
-    } else {
-        return " "
+    if(license !== "None"){
+      return `<img src="https://img.shields.io/badge/license-${license}-orange.svg"/>`
+    }else{
+      return " "
     }
-}
+  }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -22,7 +22,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
     if (license !== "None") {
-        return `## License)
+        return `## License
 
         This project is licensed under ${license} license.`
     } else {
@@ -32,48 +32,47 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-    return `# ${data.title}
+return `# ${data.title}
 
-    ${renderLicenseBadge(data.license)}
+${renderLicenseBadge(data.license)}
+
+## Description
   
-    ## Description
+${data.description}
   
-    ${data.description}
+## Table of Contents
   
-    ## Table of Contents
-  
-    * [Installation](#installation)
-    * [Usage](#usage)
-    ${renderLicenseLink(data.license)}
-    * [Contribition](#contribution)
-    * [Tests](#tests)
-    * [Questions](#questions)
+ * [Installation](#Installation)
+ * [Usage](#Usage)
+${renderLicenseLink(data.license)}
+* [Contribution](#Contribution)
+* [Tests](#Tests)
+* [Questions](#Questions)
     
+## Installation
   
-    ## Installation
+${data.installation}
   
-    ${data.installation}
+## Usage
   
-    ## Usage
+${data.usage}
   
-    ${data.usage}
+${renderLicenseSection(data.license)}
   
-    ${renderLicenseSection(data.license)}
+## Contribution
   
-    ## Contribution
+${data.contribution}
   
-    ${data.contribution}
+## Tests
   
-    ## Tests
+${data.test}
   
-    ${data.test}
+## Questions
   
-    ## Questions
+If you have any questions and would like to reach me, please email me at ${data.email}.
+If you would like to see other projects I've created, feel free to chechout my github at [${data.github}](https://github.com/${data.github}).
   
-    If you have any questions and would like to reach me, please email me at ${data.email}.
-    If you would like to see other projects I've created, feel free to chechout my github at [${data.github}](https://github.com/${data.github}).
-  
-  `;
-  }
+`;
+}
 
 module.exports = generateMarkdown;

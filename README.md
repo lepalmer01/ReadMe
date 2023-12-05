@@ -2,15 +2,34 @@
 
 The ReadMe Generator is a command-line application designed to simplify the creation of a polished README.md file for your project. Powered by the Inquirer package, it guides users through prompts, collecting essential information about their application and dynamically populating relevant sections of the README.
 
+## Table of Contents 
+
+### -  [Installation](#installation)
+### -  [Usage](#usage)
+### -  [Project Links](#projectlinks)
+### -  [Questions](#questions)
+### -  [Credits](#credits)
+
 ## Installation
 
-When you run the application, it will prompt you for information about your project. Enter the required details such as project title, description, installation instructions, usage information, contribution guidelines, and test instructions. These details will be added to their respective sections in the generated README.
+- Install Inquirer 8.2.4
+- Run 'node index.js' to initiate the command line application
+- Once the user has answered the prompts, find the generated README.file in the ./output folder.
+
+## Usage
+This readme generator allows developers streamlines development by automating README creation.
+
 
 ## Project Links
 
 Check out the walkthrough video that demonstates the application's functionality: 
 
 
+
+## Questions 
+If you have any questions and would like to reach me, please email me at lpalmer@live.com.
+
+If you would like to see other projects I've created, feel free to chechout my github at [lepalmer01](https://github.com/lepalmer01).
 
 
 ## Credits

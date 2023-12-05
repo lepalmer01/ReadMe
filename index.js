@@ -67,7 +67,6 @@ const questions = [
 ];
 
 
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFileSync(path.join(fileName), data)
@@ -79,7 +78,6 @@ function init() {
         writeToFile("./output/README.md", generateMarkdown({...answers}))
     })
 }
-
 
 // Function call to initialize app
 init();

@@ -4,11 +4,11 @@ The ReadMe Generator is a command-line application designed to simplify the crea
 
 ## Table of Contents 
 
-### -  [Installation](#installation)
-### -  [Usage](#usage)
-### -  [Project Links](#projectlinks)
-### -  [Questions](#questions)
-### -  [Credits](#credits)
+#### -  [Installation](#installation)
+#### -  [Usage](#usage)
+#### -  [Project Links](#projectlinks)
+#### -  [Questions](#questions)
+#### -  [Credits](#credits)
 
 ## Installation
 
@@ -22,7 +22,7 @@ This readme generator allows developers streamlines development by automating RE
 
 ## Project Links
 
-Check out the walkthrough video that demonstates the application's functionality: 
+[Click here](https://drive.google.com/file/d/1YMLljMP8Ne0P2cQNAqne1C4OFUiP30sj/view) to view the walkthrough video that demonstates the application's functionality
 
 
 

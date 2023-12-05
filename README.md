@@ -22,7 +22,11 @@ This readme generator allows developers streamlines development by automating RE
 
 ## Project Links
 
-[Click here](https://drive.google.com/file/d/1YMLljMP8Ne0P2cQNAqne1C4OFUiP30sj/view) to view the walkthrough video that demonstates the application's functionality
+[Click here](https://drive.google.com/file/d/1YMLljMP8Ne0P2cQNAqne1C4OFUiP30sj/view) to view the walkthrough video that demonstates the application's functionality.
+
+The image below depicts a sample ReadME generated using the command line application. 
+
+<img src="./assets/images/Sample_ReadMe.png">
 
 
 
